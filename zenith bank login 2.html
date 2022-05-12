@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>dashboad </title>
+    <link  href="Stylesheet2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css" integrity="sha512-8Tb+T7SKUFQWOPIQCaLDWWe1K/SY8hvHl7brOH8Nz5z1VT8fnf8B+9neoUzmFY3OzkWMMs3OjrwZALgB1oXFBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="body-container">
+               <div class="sidebar">
+                  <div class="Rectangle-2979">
+                      <div class ="Vector"> 
+                             <img src="OIP.jpg" alt="" width="50" height="auto">
+                      </div>
+                   </div>
+                  <!-- <span class="AFRO-INTERNATIONAL">
+                   AFRO INTERNATIONAL
+                  </span> -->
+                   <div class="nav-bar">
+                         <ul>
+                              <li>
+                                   <a href="#home"> 
+                                      <i class="chart bar icon fa fa icon-font"></i>Transactions
+                                  </a>
+                              </li>
+                              <li>
+                                 <a href="#news">
+                                      <i class="chart bar icon fa fa icon-font"></i>Extras
+                                 </a>
+                              </li>
+                                 <li>
+                                      <a href="#contact">
+                                           <i class="chart bar icon fa fa icon-font"></i>Supports
+                                     </a>
+                                 </li>
+                              <li>
+                                     <a href="#about"><i class="chart bar icon fa fa icon-font"></i>Settings
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#about">
+                                        <i class="chart bar icon fa fa icon-font"></i>Reports
+                                      </a>
+                              </li>
+
+                                 <li class="logout-bar">
+                                      <a href="#about">
+                                          <i class="chart bar icon fa fa icon-font"></i>Logout
+                                       </a>
+                                  </li>
+                          </ul>
+                          <div class="lience-card">
+                               <div class="loader">
+                                   <p class="load-text">80%</p>
+                             </div>
+                             <div class="sub-card">
+                                 <p class="sub-card-header">Licensing</p>
+                                  <p class="support-text">You are currently using the unlicensed version. Kindly license your application.</p>
+                                    <a href="#" class="ugrade">Upgrade License</a>
+                              </div>
+                         </div>
+                     </div>
+              </div>
+                  <div class="content">
+                      <div class="col-sm-12">
+                        <button class="btn btn-default"> <i class="angle left icon"></i> 
+                            <span class="Back"> 
+                                Back
+                              </span> 
+                            </button>
+                              <span class="dashboard-todays-transaction">
+                                <span class="text-style-1">dashboard</span>
+                                / today’s transaction
+                              </span>
+                      </div>
+                   
+                      <span class="Text">
+                        Today’s transaction
+                      </span>
+                      
+                      <div class="ui left icon input">
+                        <input type="text" placeholder="Search for your transaction here">
+                        <i class="search icon"></i>
+                      </div>
+
+                      <div class="Dropdowns">
+                      <div class="_Button-base-1"> <span class="Transaction-Text">
+                        Transaction date
+                      </span> <i class= "times icon " style="width: 10px; height: 10px; color: #c10506; margin-top: -5px;"></i></div>
+                      <div class="_Button-base-2">  <span class="Transaction-Text">
+                        Receiver's name
+                      </span> <i class= "times icon " style="width: 10px; height: 10px; color: #c10506; margin-top: -5px;"></i></div>
+                      <div class="_Button-base-3">  <span class="Transaction-Text">
+                        Transaction time
+                      </span> <i class= "times icon " style="width: 10px; height: 10px; color: #c10506; margin-top: -5px;"></i></div>
+                      <div class="_Button-base-4">  <span class="Transaction-Text">
+                        Status
+                      </span> 
+                      <i class= "times icon " style="width: 10px; height: 10px; color: #c10506; margin-top: -5px;"></i>
+                    </div>
+                      <div class="_Button-base-5">  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+                        <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                      </svg><span class="Transaction-Text" style="color:black ">
+                        Collapse filters
+                      </span>  </div>
+                      </div> <br> <br>
+                      
+                      <span class="Title ">
+                        FEBRUARY 05, 2022
+                      </span> <br> <br>
+                      
+                      <table class="table">
+                        <thead class="table-light">
+                          <tr>
+                            <th scope="col">RECEIVER'S NAME</th>
+                            <th scope="col">DATE</th>
+                            <th scope="col">AMOUNT</th>
+                            <th scope="col">TIME</th>
+                            <th scope="col">STATUS</th>
+                          </tr>
+                      
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Adeyemi Michael</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N149,000</td>
+                            <td class="time">03:55 PM</td>
+                          <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Wade Warren</th>
+                            <td class="date"> Feb 05, 2022 </td>
+                            <td class="amount">N100,000</td>
+                            <td class="time">03:30 PM</td>
+                            <td> <div class="Wade"> PENDING </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Brooklyn Simmons</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N50,000</td>
+                            <td class="time">03:00 PM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Jacob Jones</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N4,000</td>
+                            <td class="time">02:59 PM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Cameron Williamson</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N2,000</td>
+                            <td class="time">02:56 PM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Esther Howard</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N41,000</td>
+                            <td class="time">02:44 PM</td>
+                            <td> <div class="Wade"> PENDING </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Albert Flores</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N84,000</td>
+                            <td class="time">12:00 PM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Darlene Robertson</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N104,000</td>
+                            <td class="time">10:42 AM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Marvin McKinney</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N40,000</td>
+                            <td class="time">10:00 AM</td>
+                            <td> <div class="Adeyemi"> PAID </div> </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Arlene McCoy</th>
+                            <td class="date">Feb 05, 2022</td>
+                            <td class="amount">N24,000</td>
+                            <td class="time">09:00 AM</td>
+                            <td> <div class="Wade"> PENDING </div> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <span class="footer">
+                        Showing 10 out of 150 results found
+                      </span>
+
+                      
+                  </div>
+                      
+                          
+                  
+                 
+             
+                       
+                
+                            
+                             
+                    
+                   
+               
+               
+    </div>
+     
+</body>
+</html>

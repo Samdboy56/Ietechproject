@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>zenith login</title>
+<link  href="stylesheet.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+  function signIn()
+  {
+    document.getElementById('card-loader').style.display ='block';
+  }
+</script>
+</head>
+<body>
+  <div class="container">
+    <div class= "col-sm-12">
+      <div class="col-sm-6">
+        <div class="col-sm-12 header-form">
+          <div class="col-sm-6 ">
+            <img src="zenith logo.png" alt="" class="logo">
+          </div>
+          <div class="col-sm-6">
+            <p class="logo-header">AFRO INTERNATIONAL</p>
+          </div>
+        </div>
+        <div class="card-login">
+          
+          <div class="login-detail">
+            <p class="card-text">Welcome Back</p>
+              <p class="details-text">
+                Welcome back! Please enter your details to login.
+              </p>
+              <div>
+                  <div class="form-group">
+                      <div class="form-input">
+                        <label class="form-label"> Username </label>
+                        <input type="text" class="form-control form-input-control"/>
+                      </div>
+                      <div class="form-input br-input">
+                        <label class="form-label"> Password </label>
+                        <input type="password" class="form-control form-input-control" />
+                    </div>
+                    <div class="form-input br-input">
+                        <div class="col-sm-12">
+                            <div class="col-sm-6">
+                                <div class="col-sm-12">
+                                    <div class="col-sm-2">
+                                        <input type="checkbox"/>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        Remember Me
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" style="text-align: right;">
+                                <p>Forget Password</p>
+                            </div>
+                        </div>
+                      </div>
+                    <div class="form-input br-input">
+                        <button class="btn-danger btn-login" onclick="signIn()">Sign in</button>
+                    </div>
+                    
+                    
+                    
+                  </div>
+                
+              </div>
+          </div>
+          
+        </div>
+        <div class="card-loader" id="card-loader">
+          <div class="loader">
+            <img src="zenith_loader.gif" width="100" height="auto"/>
+            <p class="loader-text">Please wait while we set up your account.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active indicate" aria-current="true" aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" class="indicate" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" class="indicate"  data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="zenith logo 2.png" class="d-block w-100" style="width: 100%;height: 100vh;" />
+            </div>
+            <div class="carousel-item">
+              <img src="zenith logo 3.png" class="d-block w-100" style="width: 100%;height: 100vh;" />
+            </div>
+            <div class="carousel-item">
+              <img src="zenith logo 4.png" class="d-block w-100" style="width: 100%;height: 100vh;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+  
+<html> 
+
+

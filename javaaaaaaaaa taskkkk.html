@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #samuel { 
+            text-align: center;
+            justify-content: center;
+            font-size: 3rem;                 
+ }
+    </style>
+</head>
+<body>
+    <p id = "samuel"></p>
+    <script>
+     
+function compare(num1,num2){
+
+    console.log("typeof", num1);
+    console.log("typeof", num2);
+    let sumv = num1 + num2;
+    console.log(sumv)
+   if(isNaN(sumv)) {
+    document.getElementById("samuel").innerHTML= "Wrong input, please enter an integer number";
+   }
+   else{
+if(sumv === 100){
+    document.getElementById("samuel").innerHTML= "True, the number is equal to 100";
+}
+else if (sumv < 100) {
+    document.getElementById("samuel").innerHTML= "True, the number is less than 100";
+} else {  
+     document.getElementById("samuel").innerHTML= "False, the number is greater than 100";
+    
+}
+
+}
+}
+
+const number1 = +prompt('Enter first number : ');
+const number2 = +prompt('Enter second number : ');
+
+
+compare(number1,number2);
+ 
+
+ 
+
+        
+
+
+
+
+
+ </script>
+ </body>
+</html>

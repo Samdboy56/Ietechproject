@@ -1,0 +1,621 @@
+.Frame-37 {
+  width: 490px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 0 0 0 636px;
+  padding: 0;
+}
+@font-face{
+  src:url(Inter-VariableFont_slnt,wght.ttf);
+  font-family: Inter;
+}
+
+.body-container {
+  flex-grow: 0;
+  background-color: #fff;
+}
+.Nav-nav-menu {
+  width: auto;
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 31px;
+  padding: 24px 100px;
+  background-color: #fff;
+}
+.Frame-61 {
+  width: 1000px;
+  height: 60px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+.Home {
+  width: 46px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Investor-Relations {
+  width: 137px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.About {
+  width: 47px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.CSR {
+  width: 33px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Customer-Service {
+width: 137px;
+height: 19px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #000;
+}
+._Button-base {
+  width: 360px;
+  height: 60px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 28px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  background-color: #e31e23;
+}
+.Text {
+  width: 142px;
+  height: 28px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.Frame-55 {
+  width: 78px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+.Frame-56 {
+  width: 169px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+.Frame-57 {
+  width: 79px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+.Frame-58 {
+  width: 65px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+.Frame-59 {
+  width: 169px;
+  height: 51px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}  
+.Frame-33 {
+  width: 480px;
+  height: 592px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 0;
+}
+.login-div{
+  width: 600px;
+}
+.input_security{
+  font-size: 30px !important;
+}
+.input-text{
+  width: 480px !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gif_text{
+  margin: 0px auto;
+  width: 750px !important; 
+  height: auto;
+}
+.Zenithbankgm-Internet-banking-Individual {
+  width: 300px;
+  height: 21px;
+  margin: 31px 1328px 39px 100px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4f4f4f;
+}
+.Zenithbankgm-Internet-banking-Individual .text-style-1 {
+  color: #000;
+}
+.Zenithbankgm-Internet-banking-Individual .text-style-2 {
+  color: #e31e23;
+}
+.Zenithbankgm-Internet-banking-Individual .text-style-3 {
+  color: #e31e23;
+}
+.Frame-62 {
+  margin: 0px 100px 0px 100px;
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  padding: 0;
+}
+.Security-On-1 {
+  width: 100%;
+  height: 720px;
+  margin: 0px auto;
+  flex-grow: 0;
+}
+.Sign-In-by-entering-the-correct-information-in-the-form-below {
+  width: 505px;
+  height: 96px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Kindly-select-between-Pin-Token-or-Password {
+width: 420px;
+height: 72px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #4f4f4f;
+margin-bottom: 36px;
+}
+.Kindly-select-between-Pin-Token-or-Password .text-style-1,
+.Kindly-select-between-Pin-Token-or-Password .text-style-2{
+font-weight: 700;
+}
+
+.PINPASSWORD {
+width: 400px;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24px;
+padding: 0;
+}
+.PINPASSWORD nav  {
+height: 60px;
+width: 120%;
+display: flex;
+background: #faebeb;
+position: relative;
+align-items: center;
+border-radius: 8px;
+}
+.PINPASSWORD nav label {
+font-family: Inter;
+font-size: 18px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+color: #e69b9b;
+display: block;
+text-align: center;
+width: 100%;
+height: 50%;
+cursor: pointer;
+position: relative;
+z-index: 1;
+transition: all 0.3s ease;
+}
+input[type="radio"]{
+display: none;
+}
+
+#Password:checked ~ nav .slider {
+left: 50%;
+}
+#Pin:checked ~ nav label.Pin,
+#Password:checked ~ nav label.Password{color: #fff;}
+.PINPASSWORD nav .slider{
+position: absolute;
+height: 100%;
+width: 55%;
+background: #da696a;
+border-radius: 8px;
+z-index: 0;
+left: 0;
+bottom: 0;
+transition: all 0.3s ease;
+}
+section .content{
+ display: none; 
+}
+
+#Pin:checked ~section .content-1 {
+display: block !important;
+}
+#Password:checked ~section .content-2 {
+display: block !important;
+}
+
+.Input-with-label {
+height: 70px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0;
+}
+.Input-with-label-1,
+.Input-with-label-2
+{
+height: 70px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0;
+}
+input {
+height: 44px;
+align-self: stretch;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 8px;
+padding: 10px 14px;
+border-radius: 8px;
+box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+border: solid 1px #d0d5dd;
+background-color: #fff;
+}  
+
+label {
+width: 149px;
+height: 20px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: rgba(79, 79, 79, 0.7);
+}
+label .a {
+width: 130px;
+height: 20px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: rgba(79, 79, 79, 0.7);
+}
+._Button-base-1 {
+width: 420px;
+height: 44px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 10px 18px;
+border-radius: 8px;
+box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+background-color: #e69b9b;
+}
+
+.Text-1 {
+width: 43px;
+height: 24px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+
+}
+.Input-field {
+width: 420px;
+height: 70px;
+flex-grow: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: stretch;
+padding: 0;
+margin-bottom: 24px;
+}
+.Frame-12796 {
+width: 578px;
+height: 20px;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 93px;
+padding: 0;
+margin-top: 24px;
+}
+.New-user-Register-here {
+width: 165px;
+height: 20px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #e31e23;
+}
+.New-user-Register-here .text-style-1 {
+font-weight: normal;
+color: #121212;
+}
+
+.Click-here-to-use-the-Corporate-Internet-Banking {
+width: 320px;
+height: 20px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: var(--zenith-light-grey);
+}
+.Click-here-to-use-the-Corporate-Internet-Banking .text-style-1 {
+font-weight: 600;
+color: #e31e23;
+}
+
+.Click-here-to-use-the-Corporate-Internet-Banking .text-style-2 {
+color: #121212;
+}
+
+.col-sm-12
+{
+width: 91% !important;
+margin: 0px auto !important;
+display: flex;
+}
+.col-sm-8{
+text-align: center !important;
+}
+footer {
+width: auto;
+height: 104px;
+margin: 24px 0 0;
+padding: 40px 100px 40px 102px;
+background-color: #faebeb;
+}
+.Zenith-Bank-Powered-by-IETECH-v2021002 {
+width: 74%;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #121212;
+}
+.Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-1 {
+color: #000;
+}
+.Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-5 {
+color: #e31e23 !important;
+}
+
+.Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-3 {
+font-weight: 500;
+}
+.footer-container{
+display: flex;
+}
+.Scam-Alert {
+width: 85px;
+height: 24px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #121212;
+}
+.Email-Fraud-and-Phishing {
+width: 192px;
+height: 24px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #121212;
+}
+.Contact-Us {
+width: 86px;
+height: 24px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #121212;
+}
+.FAQ {
+width: 31px;
+height: 24px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #121212;
+}

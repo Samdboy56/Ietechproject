@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel's program to calculate multiplication and division of two numbers</title>
+    <style type="text/css">
+        #Samdboy {
+          margin-left: 600px;
+          text-align: center; 
+          border: 1px solid black; 
+          width: 300px; 
+          justify-content: center;
+          padding: 40px; background-color: white;
+          margin: auto;
+        }
+        #button {
+            margin-left: 50px;
+        }
+        #answer1 , #answer2 {
+            text-align: center;
+            font-size: 3rem;
+            margin: 20px;
+        }
+        </style>    
+</head>
+<body>
+    <div id="Samdboy">
+        <form>
+        1st Number : <input type="number" id="firstNumber"  /><br> <br>
+        2nd Number: <input type="number" id="secondNumber" /><br> <br>
+        <div id = button>
+       <input type="button" onClick="multiplyBy()" Value="Multiply" style="background: greenyellow;;" />
+       <input type="button" onClick="divideBy()" Value="Divide" style="background: greenyellow;;" />
+        </div>
+        </form>
+        <p>The Result is : 
+        <span id = "result"></span>
+        </p>
+            </div>
+            <div>
+                <p id="answer1"> </p>
+                <p id="answer2"> </p>
+            </div>
+<script>
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 / num2;
+}
+const n = parseInt( prompt('Enter a number: '));
+function diff_num(n) {
+    if (isNaN(n)) {
+        return ("Wrong input, please enter a number");
+    } else {
+        if (n <= 13) {
+    return (13 - n);
+    }
+  else
+    {
+     return (n - 13) * 2;
+    }
+    }
+ 
+}
+document.getElementById("answer1").innerHTML = diff_num(n);
+console.log(diff_num(n));
+
+ 
+
+
+let input = prompt("Enter a and b separated by a comma").split(",");
+        const input1 = input[0]
+        const input2 = input[1]
+        const a = parseInt(input1);
+    const b = parseInt(input2)
+function sumTriple (a, b) {
+    if (isNaN(a,b)) {
+        return ("Wrong input, please enter a number");
+    } else {
+  if (a == b) {
+    return 3 * (a + b);
+    } 
+   else
+   {
+    return (a + b);
+   }
+ }
+}
+document.getElementById("answer2").innerHTML = sumTriple(a, b);
+console.log(sumTriple(a, b));
+
+
+</script> 
+</body>
+</html>
+ 

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face{
+    src:url(SpaceGrotesk-VariableFont_wght.ttf);
+    font-family: space-grotesk;}
+    @font-face{
+    src:url(Inter-VariableFont_slnt,wght.ttf);
+    font-family: Inter;}
+        h5{
+            margin:20px;
+        }
+        dl, ol, ul{
+            list-style: none !important;
+            padding-left: 20px !important;
+            padding: 20px;
+            margin-bottom: 0px !important
+        }
+        ul li {
+            margin-top: 5px;
+        }
+        .Rectangle-2979 {
+        margin: 20px;
+        }
+        .AFRO-INTERNATIONAL {
+               margin: 24px 2px 64px 3px;
+               font-family: space-grotesk !important ;
+               font-size: 20px;
+               font-weight: bold;
+               text-align: center;
+               color: #fff;
+        }
+
+        .Vector 
+        {
+              padding: 5px;
+              width: 150px;
+              margin: 0px auto;
+                background-color: white;
+                text-align: center;
+       }
+
+        body {
+                margin: 0;
+                font-family: "Lato", sans-serif;
+        }
+
+       .sidebar {
+            margin: 0;
+             padding: 0;
+             width: 270px;
+             background-color: #c10506;
+             position: fixed;
+              height: 100%;
+             overflow: auto;
+         }
+
+       .sidebar a {
+             display: block;
+             color: white;
+             padding: 14px;
+             font-size: 14px;
+             text-decoration: none;
+        }
+ 
+       .sidebar a.active {
+        background-color: white;
+           color: #c10506;
+           border-radius: 10px;
+           font-weight: 600;
+        }
+
+       .sidebar a:hover:not(.active) {
+           background-color: white;
+           color: #c10506;
+           border-radius: 10px;
+        }
+
+       div.content {
+            padding: 50px;
+            height: 100vh;
+            float: right;
+            width: 83%;
+        }
+
+        @media screen and (max-width: 700px) {
+           .sidebar {
+           width: 100%;
+           height: auto;
+           position: relative;
+       }
+     .sidebar a {float: left;}
+             div.content {margin-left: 0;}
+       }
+       .icon-font{
+           padding-right: 40px !important;
+       }
+
+      @media screen and (max-width: 400px) {
+      .sidebar a {
+            text-align: center;
+            float: none;
+         }
+        }
+        .logout-bar{
+            margin-top: 20px;
+        }
+        .lience-card{
+            background-color: white;
+            padding: 10px;
+            margin: 17px;
+            margin-top: 0px !important;
+            border-radius: 5px;
+        }
+        .content .col-sm-12 .col-sm-10 h3 {
+           font-family: Inter !important;
+           font-size: 30px;
+        }
+        .content .col-sm-12 .col-sm-10 p {
+           font-family: Inter !important;
+           font-size: 16px;
+           color: #818286;     
+        }
+        .sub-card-header{
+            font-size: 17px;
+            font-weight: 700;
+            text-align: left;
+            color: #c10506;
+        }
+        .support-text{
+            font-size: 12px;
+            font-weight: normal;
+            text-align: left;
+            color: #121212;
+        }
+        .ugrade{
+            color: #121212 !important;
+            text-align: left;
+            padding: 0px !important;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .sub-card a:hover{
+            color: #777777 !important;
+        }
+        .loader
+        {
+            background-color: #c10506; border-radius: 50%; width: 60px; height: 60px;
+        }
+        .load-text{
+            color: white; width: 30px; font-weight: 700; padding-top: 15px !important; margin: 0px auto !important;
+        }
+        h2 {
+            margin: 50px;
+        }
+        p2 {
+            margin:50px;
+        }
+        .card {
+            margin:15px;
+
+        }
+
+        .src{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 5px solid #da696a;
+            position: absolute;
+        }
+        .avatar .status {
+            width: 10px;
+            height: 10px;
+            background: #12b76a !important;
+            border-radius: 50%;
+        }
+        .dashboard-header
+        {
+            display: flex !important;
+        }
+        .limited {
+               height: 60px;
+               align-self: stretch;
+               flex-grow: 0;
+              padding: 18px 0 0;
+         }
+   
+      .Icon {
+                
+          width: 11.7px;
+          height: 11.7px;
+          border: solid 2px #12b76a;
+       }
+     
+       .table .table-light tr th {
+           width: 98px;
+           height: 16px;
+           font-family: Inter !important;
+          font-size: 10px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.6;
+          letter-spacing: 0.6px;
+          text-align: left;
+          color: #8492a6;
+         line-height: 1.6 !important;
+         letter-spacing: 0.6px !important;
+         padding: 20px;
+       }
+  
+     .table tbody tr .date {
+          font-family: Inter !important;
+          font-size: 14px;
+          color: #425466;
+          font-weight: normal !important;
+           font-stretch: normal;
+       }
+        
+       .table tbody tr .amount {
+           font-family: Inter !important;
+           font-size: 12px;
+          color: #425466;
+           font-weight: 600 !important;
+          font-stretch: normal;
+        }
+  
+      .table tbody tr .time {
+            font-family: Inter !important;
+            font-size: 14px;
+          color: #425466;
+         font-weight: normal !important;
+         font-stretch: normal;
+       }
+
+      tbody, td, tfoot, th, thead, tr
+      {
+           padding: 15px !important;
+            border: 0px !important;
+           border-bottom: 1px solid #eeee !important;
+       }
+  
+    
+       .Adeyemi {
+         width: 44px;
+         height: 24px;
+          flex-grow: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+           padding: 2px 8px;
+          border-radius: 6px;
+          background-color: #deffee;
+         color: #66cb9f;
+         font-weight:400;
+        }
+  
+        .Wade {
+          width: 65px;
+          height: 24px;
+          flex-grow: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         gap: 10px;
+         padding: 2px 8px;
+          border-radius: 6px;
+          background-color: #fbefc9;
+          color: #f2c94c;
+       }
+                 
+      
+       .Icon {
+          width: 15px;
+         height: 15px;
+           border: solid 1.7px #818286;
+       }
+
+       .Text {
+         width: 722px;
+         height: 38px;
+         font-weight: 500;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 1.27;
+         letter-spacing: normal;
+         text-align: left;
+         color: #121212;
+          font-size: 30px;
+         margin: 32px 354px 32px 0px !important;
+       }               
+
+
+       input {
+         width: 1012px;
+         height: 44px;
+         display: flex;
+         flex-direction: row;
+          justify-content: flex-start;
+         align-items: center;
+         gap: 8px;
+           margin: 32px 64px 32px 0px !important;
+          padding: 10px 14px;
+           border-radius: 8px;
+          box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+           border: solid 1px #d0d5dd;
+          background-color: #fff;
+        }
+  
+        .graph {
+                                
+                                width: 128px;
+                              height: 64px;
+                                 margin: 8px 0 0 16px;
+                                 background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 64%, #fff 100%);
+                                 float: right;
+        }
+ 
+        .Change {
+                                           width: 30px;
+                                           height: 20px;
+                                            flex-grow: 0;
+                                            font-family: Inter;
+                                            font-size: 14px;
+                 font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.43;
+               letter-spacing: normal;
+               text-align: center;
+               color: #027a48;
+               margin-left: 15px;
+
+            }
+
+            .now {
+                margin-left: 25px;
+            }
+
+</style>
+    <title>dashboad </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css" integrity="sha512-8Tb+T7SKUFQWOPIQCaLDWWe1K/SY8hvHl7brOH8Nz5z1VT8fnf8B+9neoUzmFY3OzkWMMs3OjrwZALgB1oXFBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="body-container">
+               <div class="sidebar">
+                  <div class="Rectangle-2979">
+                      <div class ="Vector"> 
+                             <img src="OIP.jpg" alt="" width="50" height="50">
+                      </div>
+                   </div>
+                  <!-- <span class="AFRO-INTERNATIONAL">
+                   AFRO INTERNATIONAL
+                  </span> -->
+                   <div class="nav-bar">
+                         <ul>
+                              <li>
+                                   <a class="active" href="#home"> 
+                                      <i class="chart bar icon fa fa icon-font"></i>Transactions
+                                  </a>
+                              </li>
+                              <li>
+                                 <a href="#news">
+                                      <i class="chart bar icon fa fa icon-font"></i>Extras
+                                 </a>
+                              </li>
+                                 <li>
+                                      <a href="#contact">
+                                           <i class="chart bar icon fa fa icon-font"></i>Supports
+                                     </a>
+                                 </li>
+                              <li>
+                                     <a href="#about"><i class="chart bar icon fa fa icon-font"></i>Settings
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#about">
+                                        <i class="chart bar icon fa fa icon-font"></i>Reports
+                                      </a>
+                              </li>
+
+                                 <li class="logout-bar">
+                                      <a href="#about">
+                                          <i class="chart bar icon fa fa icon-font"></i>Logout
+                                       </a>
+                                  </li>
+                          </ul>
+                          <div class="lience-card">
+                               <div class="loader">
+                                   <p class="load-text">80%</p>
+                             </div>
+                             <div class="sub-card">
+                                 <p class="sub-card-header">Licensing</p>
+                                  <p class="support-text">You are currently using the unlicensed version. Kindly license your application.</p>
+                                    <a href="#" class="ugrade">Upgrade License</a>
+                              </div>
+                         </div>
+                     </div>
+              </div>
+                  <div class="content">
+                      <div class="col-sm-12 dashboard-header">
+                          <div class="col-sm-10">
+                        <h3>Welcome back, Lawal H.</h3>
+                        <p>How are you doing today? Today's date is 5th February, 2022.</p>
+                        
+                          </div>
+                          <div class="col-sm-2" style="float: right;">
+                              <div class="avatar">
+                                  <img src="OIP.jpg" alt="" class="src" >
+                                  <div class="status"></div>
+                              </div>
+                          </div>
+                      </div>
+                 
+                      <div class="container" style="background-color: #121212; ">
+                        <div class="row" style="background-color: #12b76a;"> 
+                            <div class="col-4" style="background-color: white;">
+                                <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                        <div class="now">
+                                            <h5 style="font-size: 16px"> Today's transaction</h5>                   
+                                        </div>
+                                        <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                            <br>
+                                            <i class="fa fa-dot" style="padding-left:20px">View your current transactions</i><br>
+                                            <br>
+                                      
+                                               <i class="arrow up icon" style="color: #12b76a ;padding-left: 20px;"></i>
+                                               <span class="Change">
+                                                40%
+                                              </span>
+                                            <i class="fa fa-dot">vs last month</i> <img src="_Chart.png" alt="" class="graph">
+                                        </div>
+                                </div>
+                               </div>
+                               <div class="col-4" style="background-color:white;">
+
+                                <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                    <div class="now">
+                                        <h5 style="font-size: 16px"> 7 days ago</h5>                   
+                                    </div>
+                                    <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                        <br>
+                                        <i class="fa fa-dot" style="padding-left:20px">View transactions for the past 7 days </i><br>
+                                      <br>
+                                      <i class="arrow up icon" style="color: #12b76a; padding-left: 20px;"></i>
+                                      <span class="Change">
+                                        10%
+                                        </span>
+                                        <i class="fa fa-dot">vs last month</i><img src="_Chart.png" alt="" class="graph">
+                                    </div>
+                                </div>
+                              </div>
+
+                               <div class="col-4" style="background-color: white;">
+                                <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                    <div class="now">
+                                        <h5 style="font-size: 16px"> 30 days ago</h5>                   
+                                    </div>
+                                    <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                        <br>
+                                        <i class="fa fa-dot" style="padding-left:20px">View  transactions for the past 30 days</i><br>
+                                        <br>
+                                        <i class="arrow up icon" style="color: #12b76a; padding-left: 20px;"></i>
+                                        <span class="Change">
+                                            40%
+                                            </span>
+                                        <i class="fa fa-dot">vs last month</i><img src="_Chart.png" alt="" class="graph">
+                                    </div>
+                            </div>
+                         </div>
+                         </div> 
+
+                        </div> 
+                        <div class="container" style="background-color: #121212; ">
+                           <div class="row" style="background-color: #12b76a;"> 
+                               <div class="col-4" style="background-color: white;">
+                                   <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                           <div class="now">
+                                               <h5 style="font-size: 16px"> Past 3 months</h5>                   
+                                           </div>
+                                           <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                               <br>
+                                               <i class="fa fa-dot" style="padding-left:20px">View your current transactions</i><br>
+                                               <br>
+                                               <i class="arrow up icon" style="color: #12b76a; padding-left:20px"></i>
+                                               <span class="Change">
+                                                   40%
+                                                   </span>
+                                               <i class="fa fa-dot">vs last month</i><img src="_Chart.png" alt="" class="graph">
+                                           </div>
+                                   </div>
+                                  </div>
+                                  <div class="col-4" style="background-color:white;">
+                                  <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                       <div class="now">
+                                           <h5 style="font-size: 16px"> Past 6 months</h5>                   
+                                       </div>
+                                       <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                        <br>
+                                           <i class="fa fa-dot" style="padding-left:20px">View transactions for the past 7 days </i><br>
+                                          <br>
+                                          <i class="arrow up icon" style="color: #12b76a; padding-left: 20px;"></i>
+                                          <span class="Change">
+                                           10%
+                                           </span>
+                                           <i class="fa fa-dot"> vs last month</i><img src="_Chart.png" alt="" class="graph">
+                                       </div>
+                                    </div>
+                                 </div>
+                                <div class="col-4" style="background-color: white;">
+                                       <div class="card border-left-success h-90 py-3 shadow" style="background-color: whitesmoke;padding-right: 35px;">
+                                          <div class="now">
+                                             <h5 style="font-size: 16px"> Past 12 months</h5>                   
+                                          </div>
+                                          <div class="" style="background-color: whitesmoke; padding-right: 35px;">
+                                           <br>
+                                           <i class="fa fa-dot" style="padding-left:20px">View  transactions for the past 30 days</i><br>
+                                           <br> 
+                                           <i class="arrow up icon" style="color: #12b76a; padding-left: 20px;"></i>
+                                           <span class="Change">
+                                               40%
+                                               </span>
+                                           <i class="fa fa-dot">vs last month</i><img src="_Chart.png" alt="" class="graph">
+                                          </div>
+                                   </div>
+                               </div>
+                                 </div> 
+                            </div>
+                            <div class="ui left icon input">
+                               <input type="text" placeholder="Search for your transaction here">
+                               <i class="search icon"></i>
+                             </div>
+        <div class="limited">
+            <h5> Today's transaction</h5>
+            <table class="table">
+               <thead class="table-light">
+                 <tr>
+                   <th scope="col">RECEIVER'S NAME</th>
+                   <th scope="col">DATE</th>
+                   <th scope="col">AMOUNT</th>
+                   <th scope="col">TIME</th>
+                   <th scope="col">STATUS</th>
+                 </tr>
+             
+               </thead>
+               <tbody>
+                 <tr>
+                   <th scope="row">Adeyemi Michael</th>
+                   <td class="date">Feb 05, 2022</td>
+                   <td class="amount">N149,000</td>
+                   <td class="time">03:55 PM</td>
+                 <td> <div class="Adeyemi"> PAID </div> </td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Wade Warren</th>
+                   <td class="date"> Feb 05, 2022 </td>
+                   <td class="amount">N100,000</td>
+                   <td class="time">03:30 PM</td>
+                   <td> <div class="Wade"> PENDING </div> </td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Brooklyn Simmons</th>
+                   <td class="date">Feb 05, 2022</td>
+                   <td class="amount">N50,000</td>
+                   <td class="time">03:00 PM</td>
+                   <td> <div class="Adeyemi"> PAID </div> </td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Jacob Jones</th>
+                   <td class="date">Feb 05, 2022</td>
+                   <td class="amount">N4,000</td>
+                   <td class="time">02:59 PM</td>
+                   <td> <div class="Adeyemi"> PAID </div> </td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Cameron Williamson</th>
+                   <td class="date">Feb 05, 2022</td>
+                   <td class="amount">N2,000</td>
+                   <td class="time">02:56 PM</td>
+                   <td> <div class="Adeyemi"> PAID </div> </td>
+                 </tr>
+               
+               </tbody>
+             </table>
+              
+   </div>
+    
+</body>
+</html>

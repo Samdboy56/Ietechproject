@@ -1,0 +1,262 @@
+@font-face{
+  src:url(Inter-VariableFont_slnt,wght.ttf);
+  font-family: Inter;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Nav-Menu {
+  width: 297px;
+  height: 1037px;
+  padding: 54px 34px 447.8px 0px;
+  box-shadow: 0 5px 15px 0 rgba(227, 30, 35, 0.05);
+  background-color: #fafafa;
+  position: fixed;
+}
+.Vector {
+  width: 45.8px;
+  height: 36.1px;
+  flex-grow: 0;
+  margin-left: 120px;
+  background-color: #ed1c24;
+}
+.Frame-119 {
+  width: 290px;
+  height: 403px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 0 40px;
+  background-color: #fafafa;
+}
+dl, ol, ul{
+  list-style: none !important;
+  padding-left: 20px !important;
+  padding: 20px;
+  margin-bottom: 0px !important
+}
+ul li {
+margin-top: 5px;
+}
+.Frame-119 a{
+display: block;
+color: #da696a;
+padding: 14px; 
+text-decoration: none;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+}
+.logout-bar{
+margin-top: 50px;
+}
+.Frame-119 a:hover:not(.active) {
+cursor: pointer;
+color:#da696a !important;
+}
+.icon-font {
+padding-right: 40px !important;
+}
+div.content {
+padding: 30px;
+height: 100vh;
+float: right;
+}
+
+.Back {
+width: 33px;
+height: 21px;
+flex-grow: 0;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #e69b9b;
+}
+.cta-header{
+  width: 490px;
+}
+.CTA {
+
+  height: 180px;
+  margin: 30px 0px 30px 0;
+  padding: 52px 0 38px 63px;
+  background-color: #da696a;
+}
+.Text {
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.Moneyverse-Transaction-Approved {
+  width: 209px;
+  height: 180px;
+  margin:  22px 0 21px;
+}
+.Remember-not-to-share-your-new-pin-with-anyone-Also-Zenith-Bank-will-never-ask-you-to-disclose-any {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #425466;
+}
+.Frame-99 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+  padding: 0
+}
+.Content {
+  height: 44px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0 10px 14px;
+}
+.label{
+  width: 404px;
+  height: 44px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #344054;
+  height: 44px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0 10px 14px;
+  border-radius: 8px;
+}
+.label4 {
+  width: 115px;
+  height: 20px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #344054;
+}
+.Frame-98 {
+  height: 318px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 0;
+
+}
+.Input-with-label {
+  width: 404PX;
+  height: 44px;
+ align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0;
+  color: #4f4f4f;
+  font-weight: 600;
+  
+  
+  
+}
+._Button-base {
+  width: 404px;
+  height: 44px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  background-color: #e69b9b;
+  margin-top: 30px;
+  
+}
+.freepik--Graphics--inject-33 {
+  width: 387.9px;
+  height: 342.5px;
+  padding: 0 0 32.5px;
+}
+
+.Send-us-an-email-at-enquiryzenithbankgm-if-you-notice-an-unrecognizable-activity-on-your-account {
+  width: 768px;
+  height: 24px;
+  margin: 0 0 12px 355px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #121212;
+}
+
+.Send-us-an-email-at-enquiryzenithbankgm-if-you-notice-an-unrecognizable-activity-on-your-account .text-style-1 {
+  font-weight: 500;
+}
+
+.Send-us-an-email-at-enquiryzenithbankgm-if-you-notice-an-unrecognizable-activity-on-your-account .text-style-2 {
+  font-weight: 600;
+  color: #da696a;
+}footer {
+  height: 80px;
+  margin: 21px 0 0;
+  padding: 28px 105px 16px 100px;
+  background-color:#faebeb;
+}

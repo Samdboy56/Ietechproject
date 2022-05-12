@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+  #divResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #result{
+    font-size: 3rem;
+  }
+</style>
+<body>
+  <div id="divResult">
+    <p id="result">
+      
+    </p>
+  </div>
+  
+    <script>
+        const number = prompt("Enter a  number: "); 
+          const convertNumber = parseInt(number);
+          
+          //alert("convertNumber = " + convertNumber);
+          if (convertNumber % 2 ==0 ) {
+              let resultValue1 =`${convertNumber} is an even number`;
+
+              let resultValue2 = document.getElementById("result");
+              resultValue2.textContent = resultValue1;
+              //console.log("resultValue2 ", resultValue2);
+              //document.write(resultValue2);
+          } 
+          else if(isNaN(convertNumber))
+          {
+            console.log("check nan");
+            let resultValue1 =`Wrong input,please enter an integer number`;
+            console.log("resultValue1 = ", resultValue1);
+            let resultValue2 = document.getElementById("result");
+              resultValue2.innerHTML = resultValue1;
+            //console.log("resultValue2 ", resultValue2);
+              //document.write(s2);
+          }
+          else{
+
+              let resultValue1 =`${convertNumber} is an odd number`;
+              let resultValue2 = document.getElementById("result");
+              resultValue2.innerHTML = resultValue1;
+              //console.log("resultValue2 ", resultValue2);
+              //document.write(s2);
+          }
+    </script> 
+</body>
+</html>

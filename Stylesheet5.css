@@ -1,0 +1,178 @@
+
+  @font-face{
+    src:url(Inter-VariableFont_slnt,wght.ttf);
+    font-family: Inter;
+  }
+.Login-Success {
+    width: auto;
+    height: 1117px;
+    flex-grow: 0;
+    padding: 0 0 70px;
+    background-color: #fff;
+  }
+  .Background-overlay {
+    width: auto;
+    height: 904px;
+    margin: 0 0 39px;
+  }
+  .Success-msg {
+    width: 406px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: 109px 450px 318px 850px;
+    padding: 0;
+    
+  }
+  .Frame-67 {
+    width: 406px;
+    height: 104px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+    
+  }
+  .Frame-68 {
+    width: 406px;
+    height: 104px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 0;
+
+  }
+  .Login-is-successful {
+    width: 300px;
+    height: 48px;
+    flex-grow: 0;
+     opacity: 0.8; 
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03884c;
+    
+  }
+  .Badge-group {
+    width: 406px;
+    height: 32px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 4px 4px 14px;
+    /* opacity: 0.8;
+    mix-blend-mode: multiply; */
+    border-radius: 16px;
+    background-color: #ecfdf3;
+  }
+  .Message {
+    width: 378px;
+    height: 20px;
+    flex-grow: 0;
+     opacity: 0.8; 
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #027a48;
+  }
+  .Frame-69 {
+    width: 346px;
+    height: 201px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+    opacity: 0.8;
+  }
+  .zenith_loader-1 {
+    width: 150px;
+    height: 150px;
+    flex-grow: 0;
+    opacity: 0.8;
+  }
+  .Please-wait-while-we-load-your-account {
+    width: 346px;
+    height: 27px;
+    flex-grow: 0;
+    opacity: 0.8;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+  footer {
+    width: auto;
+    height: 104px;
+    margin: 24px 0 0;
+    padding: 40px 100px 40px 102px;
+    background-color: #faebeb;
+  }
+  .Zenith-Bank-Powered-by-IETECH-v2021002 {
+    width: 400px;
+    height: 24px;
+    margin: 0 1006px 0 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #121212;
+  }
+  .Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-1 {
+    color: #000;
+  }
+  .Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-5 {
+    color: #e31e23 !important;
+  }
+  
+  .Zenith-Bank-Powered-by-IETECH-v2021002 .text-style-3 {
+    font-weight: 500;
+  }
+  .footer-container{
+    display: flex;
+  }
+  .Frame-37 {
+    width: 490px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+    text-align: right;
+  }
+  

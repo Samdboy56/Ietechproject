@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+</style>
+<body>
+    <script>
+        const data ='payment for {taxtype}';
+        // replace taxtype with payment for samuel
+const number=prompt("payment for samuel")
+        let result = data.replace('{taxtype}', number);
+        console.log(result);
+
+        var MyDate = new Date();
+var MyDateString;
+MyDate.setDate(MyDate.getDate());
+MyDateString = ('0' + MyDate.getDate()) + '-'+ ('0' + (MyDate.getMonth()+1))+ '-' + MyDate.getFullYear();
+console.log(MyDateString )
+
+const numberr = parseInt(prompt("Enter a  numberr: "));
+let isPrime = true;
+ 
+if (numberr === 1) {
+    console.log("1 is neither prime nor composite number.");
+}
+
+else if (numberr > 1) {
+
+    for (let i = 2; i < numberr; i++) {
+        if (numberr % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        console.log(`${numberr} is a prime number`);
+    } else {
+        console.log(`${numberr} is a not prime number`);
+    }
+}
+
+else {
+    console.log("The numberr is not a prime number.");
+}
+  if (numberr % 2 ==0 ) {
+      console.log (`${numberr} is even number`);
+  } else{
+      console.log (`${numberr} is odd number`);
+  }
+
+
+        
+</script>
+</body>
